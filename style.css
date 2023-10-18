@@ -1,0 +1,270 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: gray;
+
+}
+
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: red;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 12.5em;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 1em 1em 1em 1,25em;
+}
+
+#presentacion{
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    width: center;
+    height: 100%;
+    outline: none;
+}
+#presentacion button{
+    background-color: #FFFFFF80;
+    border: none;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 10rem;
+    font-size: 2rem;
+    height: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10%;
+}
+#presentacion video{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#presentacion h2{
+    color: black;
+    size-adjust: 100rem;
+
+}
+#oferta{
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+#oferta img{
+    width: 100%;
+    height: 100%;
+}
+#oferta h3{
+    background-color: #FFFFFF80;
+    border: none;
+    font-weight: bold;
+    position: absolute;
+}
+
+#relleno{
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+#relleno img{
+    width: 100%;
+    height: 100%;
+}
+
+#relleno h2{
+    border: none;
+    font-weight: bold;
+    position: absolute;
+    color:white;
+    margin: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#contacto{
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    background-color: gray;
+}
+#contacto h2{
+    align-items: center;
+    color: green;
+}
+
+#contacto h3{
+    color: white;
+}
+#contacto button{
+    background-color: #FFFFFF80;
+    border: none;
+    font-weight: bold;
+    border-radius: 10rem;
+    font-size: 2rem;
+    height: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#form{
+    width: 100%;
+    height: 100%;
+    text-align: flex;
+    
+}
+#form label{
+    color: white;
+    text-align: center;
+    background-size: contain;
+    margin-bottom: 1%;
+    
+    
+}
+
+#form input{
+    
+    background: black;
+    width: 50%;
+    margin-top: 0.5%;
+    border-radius: 10rem;
+    color: white;
+    
+}
+#form button{
+    margin-top: 1%;
+    width: 15%;
+}
+
+
+#aviso{
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    background: gray;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+#info{
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    background: gray;
+    width: 100%;
+    color: white;
+}
+
+
+
+#lastMen{
+    align-items: center;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    grid-template-columns: repeat(3,2fr);
+    display: grid;
+    font-weight: bold;
+    margin: 1%;
+
+}
+#lastMen li{
+    display: inline;
+    text-align: justify;
+    margin: 1%;
+    padding-left: 15%;
+
+}
+#lastMen li a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    
+}
+
+
+.carreras{
+    width: 100%;
+    margin: 2%;
+    border-radius:4%;
+    overflow: hidden;
+    font-weight: bold;
+    text-decoration-color: white;
+    box-shadow: 0 px 1 px 10px rgba(0, 0, 0, .2);
+    align-items: center;
+    margin: 1%;
+}
+
+.container a{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.container :hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .4);
+    transform: translateY(-3%);
+    color: white;
+}
+
+.titulito{
+    text-align: center;
+    width: 1em;
+}
+
+footer{
+    background-color: gray;
+    
+}
+
+.carreras{
+    align-items: center;
+}
+
+.carreras img{
+    width: 15%;
+}
+
+.carreras button{
+    width: 100%;
+    color: white;
+    background-color: red;
+}
+
